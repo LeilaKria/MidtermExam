@@ -29,8 +29,8 @@
             android:id="@+id/btn_save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#FF5722"
-            android:backgroundTint="#FF5722"
+            android:background="#130f40"
+            android:backgroundTint="#130f40"
             android:text="SAVE USERNAME" />
 
     </LinearLayout>
