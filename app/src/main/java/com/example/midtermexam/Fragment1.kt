@@ -52,10 +52,7 @@ class Fragment1 : Fragment(), View.OnClickListener {
             binding.editTextUsername.error = "Required"
             return
         }
-        else if(charlength<6){
-            binding.editTextUsername.error = "Not Enough Characters"
-            return
-        } else {
+        else {
             val editor = sharedPreferences.edit()
             editor.putString(USER_NAME, binding.editTextUsername.text.toString())
             editor.apply()
